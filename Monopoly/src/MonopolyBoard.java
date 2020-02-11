@@ -2,6 +2,7 @@
 public class MonopolyBoard
 	{
 
+
 		public static void makeArray()
 			{
 				String[] boardIndex = new String[5];
@@ -48,5 +49,6 @@ public class MonopolyBoard
 				boardIndex[39] = "White";
 
 			}
+
 
 	}
