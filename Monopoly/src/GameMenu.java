@@ -9,6 +9,7 @@ public class GameMenu
 				System.out.println("Each player begins with $1500. One player will be selected at random to go first. the turns will proceed in numeric order. ");
 				System.out.println("Roll the dice on your turn to move across the board. The space you land on will tell you if you can buy a property, pay rent, go to jail, or draw a card.");
 				System.out.println("The player with the most money at the end of the game wins!");
+			
 			}
 
 	}
