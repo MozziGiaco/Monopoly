@@ -16,7 +16,7 @@ public class MonopolyCardsandDice
 				int diceB = randomNumber2; 
 				int diceSum = diceA + diceB;
 				System.out.println(" You rolled: " + diceA + " and " + diceB + " For a total of " + diceSum + " Please roll again.");
-
+//test
 			}
 
 	}
