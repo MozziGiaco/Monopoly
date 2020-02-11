@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MonopolyCardsandDice
@@ -18,5 +19,17 @@ public class MonopolyCardsandDice
 				System.out.println(" You rolled: " + diceA + " and " + diceB + " For a total of " + diceSum + " Please roll again.");
 //test
 			}
+		public static void chanceCards()
+		{
+			ArrayList<String> chanceCard = new ArrayList<String>();
+			chanceCard.add("Yeezy 350 V2 Zebras");
 
+			
+		}
+		public static void comunnityChestCards()
+			{
+				ArrayList<String> comunnityChestCard = new ArrayList<String>();
+				
+				
+			}
 	}
