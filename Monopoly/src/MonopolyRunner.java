@@ -1,4 +1,5 @@
 
+
 public class MonopolyRunner
 	{
 
@@ -32,11 +33,9 @@ public class MonopolyRunner
 			{
 				// TODO Auto-generated method stub
 				GameMenu.gameIntro();
-				
-				
+
 				MonopolyCardsandDice.dice();
-				
-				
+
 			}
 
 	}

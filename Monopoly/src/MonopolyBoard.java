@@ -2,7 +2,6 @@
 public class MonopolyBoard
 	{
 
-
 		public static void makeArray()
 			{
 				String[] boardIndex = new String[5];
@@ -28,27 +27,26 @@ public class MonopolyBoard
 				boardIndex[18] = "TENNESSEE AVENUE : PRICE: $180";
 				boardIndex[19] = "NEW YORK AVENUE : PRICE: $200";
 				boardIndex[20] = "FREE PARKING";
-				boardIndex[21] = "KENTUCKY AVENUE : PRICE: $220";
+				boardIndex[21] = "KENTUCKY AVENUE (RED) : PRICE: $220";
 				boardIndex[22] = "CHANCE";
-				boardIndex[23] = "INDIANA AVENUE : PRICE: $220";
-				boardIndex[24] = "ILLINOIS AVENUE : PRICE: $240";
-				boardIndex[25] = "Gray";
-				boardIndex[26] = "Navy Blue";
-				boardIndex[27] = "Yellow";
-				boardIndex[28] = "Light Blue";
-				boardIndex[29] = "White";
-				boardIndex[30] = "Gray";
-				boardIndex[31] = "Navy Blue";
-				boardIndex[32] = "Yellow";
-				boardIndex[33] = "Light Blue";
-				boardIndex[34] = "White";
-				boardIndex[35] = "Gray";
-				boardIndex[36] = "Navy Blue";
-				boardIndex[37] = "Yellow";
-				boardIndex[38] = "Light Blue";
-				boardIndex[39] = "White";
+				boardIndex[23] = "INDIANA AVENUE (RED) : PRICE: $220";
+				boardIndex[24] = "ILLINOIS AVENUE (RED) : PRICE: $240";
+				boardIndex[25] = "B & O. RAILROAD : PRICE: $200";
+				boardIndex[26] = "ATLANTIC AVENUE (YELLOW) : PRICE: $260";
+				boardIndex[27] = "VENTNOR AVENUE : PRICE: $260";
+				boardIndex[28] = "WATER WORKS: PRICE: $150";
+				boardIndex[29] = "MARVIN GARDENS (YELLOW) : PRICE: $280";
+				boardIndex[30] = "GO TO JAIL";
+				boardIndex[31] = "PACIFIC AVENUE (GREEN) : PRICE: $300";
+				boardIndex[32] = "NORTH CAROLINA AVENUE (GREEN): PRICE: $300";
+				boardIndex[33] = "COMMUNTIY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
+				boardIndex[34] = "PENNSYLVANIA AVENUE (GREEN) : PRICE: $320";
+				boardIndex[35] = "SHORT LINE : PRICE: $200";
+				boardIndex[36] = "CHANCE";
+				boardIndex[37] = "PARK PLACE (DARK BLUE) : PRICE: $350";
+				boardIndex[38] = "LUXURY TAX : PAY: $75.00";
+				boardIndex[39] = "BOARDWALK (DARK BLUE) : PRICE: $400";
 
 			}
-
 
 	}
