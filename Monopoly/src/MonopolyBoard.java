@@ -1,6 +1,9 @@
+import java.util.ArrayList;
 
 public class MonopolyBoard
 	{
+	 
+		static ArrayList <PropertyBoard> board = new ArrayList <PropertyBoard> ();
 
 		public static void makeArray()
 			{
@@ -48,7 +51,31 @@ public class MonopolyBoard
 				boardIndex[39] = "MOUNT OLYMPUS (DARK BLUE) : PRICE: $400";
 
 				
-				//eegjkslegn
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+				board.add(new PropertyBoard("AURORA'S COTTAGE", 60, "PURPLE"));
+
+				
+				
 			}
 
 	}
