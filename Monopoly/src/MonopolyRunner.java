@@ -6,7 +6,7 @@ public class MonopolyRunner
 			{
 				// TODO Auto-generated method stub
 				MonopolyCardsandDice.dice();
-				
+				//hello there
 			}
 
 	}
