@@ -1,4 +1,5 @@
 
+
 public class MonopolyRunner
 	{
 
@@ -7,6 +8,14 @@ public class MonopolyRunner
 				// TODO Auto-generated method stub
 				MonopolyCardsandDice.dice();
 				//hello there
+				MonopolyBank.bankerIntro();
+				System.out.println(" ");
+				MonopolyBank.bankMath();
+				System.out.println(" ");
+
 			}
 
 	}
+
+
+

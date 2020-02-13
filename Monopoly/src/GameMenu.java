@@ -1,7 +1,14 @@
+import java.util.Scanner;
 
 public class GameMenu
 	{		
 
+		public static void gameIntro()
+		{
+			System.out.println("Hello, and welcome to Monopoly! Would you like to see the rules? Yes (1) or No (2)?");
+		}
+		
+		
 		public static void gameInstructions()
 			{
 				System.out.println("Instructions: ");
