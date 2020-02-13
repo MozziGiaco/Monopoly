@@ -4,11 +4,13 @@ import java.util.Scanner;
 public class MonopolyCardsandDice
 	{
 
+	static int randomNumber1;
+	static int randomNumber2;
 		public static void dice()
 			{
 				Scanner userInput = new Scanner(System.in);
-				int randomNumber1 = (int) (Math.random() *6 + 1);
-				int randomNumber2 = (int) (Math.random() *6 + 1);
+				 randomNumber1 = (int) (Math.random() *6 + 1);
+				 randomNumber2 = (int) (Math.random() *6 + 1);
 			
 				System.out.println("Click enter to roll");
 				String roll = userInput.nextLine(); 
