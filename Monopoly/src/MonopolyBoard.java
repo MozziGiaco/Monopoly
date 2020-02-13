@@ -7,46 +7,48 @@ public class MonopolyBoard
 				String[] boardIndex = new String[5];
 
 				boardIndex[0] = "GO : COLLECT $200 SALARY AS YOU PASS";
-				boardIndex[1] = "MEDITERRANEAN AVENUE (PURPLE) PRICE: $60";
+				boardIndex[1] = "AURORA'S COTTAGE (PURPLE) PRICE: $60";
 				boardIndex[2] = "COMMUNITY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
-				boardIndex[3] = "BALTIC AVENUE (PURPLE) PRICE: $60";
+				boardIndex[3] = "SLEEPING BEAUTY CASTLE (PURPLE) PRICE: $60";
 				boardIndex[4] = "INCOME TAX : PAY 10% OR $200";
 				boardIndex[5] = "READING RAILROAD : PRICE: $200";
-				boardIndex[6] = "ORIENTAL AVENUE (LIGHT BLUE) PRICE: $100";
+				boardIndex[6] = "SHADOWLAND (LIGHT BLUE) PRICE: $100";
 				boardIndex[7] = "CHANCE";
-				boardIndex[8] = "VERMONT AVENUE (LIGHT BLUE) PRICE: $100";
-				boardIndex[9] = "CONNECTICUT AVENUE (LIGHT BLUE) PRICE: $120";
+				boardIndex[8] = "HAKUNA MATATA FALLS (LIGHT BLUE) PRICE: $100";
+				boardIndex[9] = "PRIDE ROCK (LIGHT BLUE) PRICE: $120";
 				boardIndex[10] = "IN JAIL (JUST VISITING)";
-				boardIndex[11] = "ST. CHARLES (PINK) PRICE: $140";
+				boardIndex[11] = "THE SNUGGLY DUCKLING  (PINK) PRICE: $140";
 				boardIndex[12] = "ELECTRIC COMPANY : PRICE: $150";
-				boardIndex[13] = "STATES AVENUE : PRICE: $140";
-				boardIndex[14] = "VIRGINIA AVENUE : PRICE: $160";
+				boardIndex[13] = "RAPUNZEL'S TOWER : PRICE: $140";
+				boardIndex[14] = "CORONA CASTLE : PRICE: $160";
 				boardIndex[15] = "PENNSYLVANIA RAILROAD : PRICE: $200";
-				boardIndex[16] = "ST. JAMES PLACE (ORANGE) PRICE: $180";
+				boardIndex[16] = "THE BOG (ORANGE) PRICE: $180";
 				boardIndex[17] = "COMMUNITY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
-				boardIndex[18] = "TENNESSEE AVENUE : PRICE: $180";
-				boardIndex[19] = "NEW YORK AVENUE : PRICE: $200";
+				boardIndex[18] = "THE FERRY : PRICE: $180";
+				boardIndex[19] = "TIANA'S PLACE : PRICE: $200";
 				boardIndex[20] = "FREE PARKING";
-				boardIndex[21] = "KENTUCKY AVENUE (RED) : PRICE: $220";
+				boardIndex[21] = "THE JUNGLE (RED) : PRICE: $220";
 				boardIndex[22] = "CHANCE";
-				boardIndex[23] = "INDIANA AVENUE (RED) : PRICE: $220";
-				boardIndex[24] = "ILLINOIS AVENUE (RED) : PRICE: $240";
+				boardIndex[23] = "PACHA'S VILLAGE (RED) : PRICE: $220";
+				boardIndex[24] = "KUZCO'S PALACE (RED) : PRICE: $240";
 				boardIndex[25] = "B & O. RAILROAD : PRICE: $200";
-				boardIndex[26] = "ATLANTIC AVENUE (YELLOW) : PRICE: $260";
-				boardIndex[27] = "VENTNOR AVENUE : PRICE: $260";
+				boardIndex[26] = "BELLE'S VILLAGE (YELLOW) : PRICE: $260";
+				boardIndex[27] = "WOLVES' WOODS : PRICE: $260";
 				boardIndex[28] = "WATER WORKS: PRICE: $150";
-				boardIndex[29] = "MARVIN GARDENS (YELLOW) : PRICE: $280";
+				boardIndex[29] = "THE BEAST'S CASTLE (YELLOW) : PRICE: $280";
 				boardIndex[30] = "GO TO JAIL";
-				boardIndex[31] = "PACIFIC AVENUE (GREEN) : PRICE: $300";
-				boardIndex[32] = "NORTH CAROLINA AVENUE (GREEN): PRICE: $300";
+				boardIndex[31] = "URSULA'S LAIR (GREEN) : PRICE: $300";
+				boardIndex[32] = "ERIC'S SHIP (GREEN): PRICE: $300";
 				boardIndex[33] = "COMMUNTIY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
-				boardIndex[34] = "PENNSYLVANIA AVENUE (GREEN) : PRICE: $320";
+				boardIndex[34] = "TRITON'S KINGDOM (GREEN) : PRICE: $320";
 				boardIndex[35] = "SHORT LINE : PRICE: $200";
 				boardIndex[36] = "CHANCE";
-				boardIndex[37] = "PARK PLACE (DARK BLUE) : PRICE: $350";
+				boardIndex[37] = "CITY OF THEBES (DARK BLUE) : PRICE: $350";
 				boardIndex[38] = "LUXURY TAX : PAY: $75.00";
-				boardIndex[39] = "BOARDWALK (DARK BLUE) : PRICE: $400";
+				boardIndex[39] = "MOUNT OLYMPUS (DARK BLUE) : PRICE: $400";
 
+				
+				//eegjkslegn
 			}
 
 	}
