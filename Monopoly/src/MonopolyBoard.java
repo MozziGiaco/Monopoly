@@ -33,13 +33,13 @@ public class MonopolyBoard
 				boardIndex[24] = "ILLINOIS AVENUE (RED) : PRICE: $240";
 				boardIndex[25] = "B & O. RAILROAD : PRICE: $200";
 				boardIndex[26] = "ATLANTIC AVENUE (YELLOW) : PRICE: $260";
-				boardIndex[27] = "VENTNOR AVENUE (YELLOW) : PRICE: $260";
-				boardIndex[28] = "WATER WORKS : PRICE: $150";
+				boardIndex[27] = "VENTNOR AVENUE : PRICE: $260";
+				boardIndex[28] = "WATER WORKS: PRICE: $150";
 				boardIndex[29] = "MARVIN GARDENS (YELLOW) : PRICE: $280";
 				boardIndex[30] = "GO TO JAIL";
 				boardIndex[31] = "PACIFIC AVENUE (GREEN) : PRICE: $300";
-				boardIndex[32] = "NORTH CAROLINA AVENUE (GREEN) : PRICE: $300";
-				boardIndex[33] = "COMMUNITY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
+				boardIndex[32] = "NORTH CAROLINA AVENUE (GREEN): PRICE: $300";
+				boardIndex[33] = "COMMUNTIY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
 				boardIndex[34] = "PENNSYLVANIA AVENUE (GREEN) : PRICE: $320";
 				boardIndex[35] = "SHORT LINE : PRICE: $200";
 				boardIndex[36] = "CHANCE";
