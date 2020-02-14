@@ -41,7 +41,7 @@ public class MonopolyBank
 					
 				}
 			
-		}
+		
 
 		static int understanding;
 		public static void banker()
