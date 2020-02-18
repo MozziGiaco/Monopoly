@@ -6,6 +6,9 @@ public class MonopolyCardsandDice
 
 	static int randomNumber1;
 	static int randomNumber2;
+	static int diceA;
+	static int diceB;
+	static int diceSum;
 		public static void dice()
 			{
 				Scanner userInput = new Scanner(System.in);
@@ -15,22 +18,27 @@ public class MonopolyCardsandDice
 				System.out.println("Click enter to roll");
 				String roll = userInput.nextLine(); 
 
-				int diceA = randomNumber1; 
-				int diceB = randomNumber2; 
-				int diceSum = diceA + diceB;
+				 diceA = randomNumber1; 
+				 diceB = randomNumber2; 
+				 diceSum = diceA + diceB;
 				System.out.println(" You rolled: " + diceA + " and " + diceB + " For a total of " + diceSum + " Please roll again.");
 //test
 			}
-		public static void chanceCards()
+		public static void chanceCardsDeck()
 		{
-			ArrayList<String> chanceCard = new ArrayList<String>();
-			chanceCard.add("Yeezy 350 V2 Zebras");
+			//ArrayList<Cards> Card = new ArrayList<Cards>();
+		//	Card.add("Get out of jail free card");
+			//Card.add("Get out of jail free card");
+			//Card.add("Get out of jail free card");
+			//Card.add("Get out of jail free card");
+			//Card.add("Get out of jail free card");
+			//Card.add("Get out of jail free card");
 
 			
 		}
-		public static void comunnityChestCards()
+		public static void comunnityChestCardsDeck()
 			{
-				ArrayList<String> comunnityChestCard = new ArrayList<String>();
+				//ArrayList<communityChest> comunnityChestCard = new ArrayList<communityChest>();
 				
 				
 			}
