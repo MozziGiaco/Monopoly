@@ -7,6 +7,21 @@ public class MonopolyBank
 	{
 	  public static void bankerIntro()
 				{
+					if(players.getMoney() < 0)
+						{
+							System.out.println("You are bankroupt...sorry, but you lose.");
+						}
+				}
+	}
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class MonopolyBank
+	{
+	  public static void bankerIntro()
+				{
 					//introduction to the banker
 					System.out.println("Mother Gothel is the Banker and Auctioneer.");
 					System.out.println("She will manages the funds in this game, without, actually being an active player.");
