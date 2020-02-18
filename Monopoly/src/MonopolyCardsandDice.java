@@ -6,6 +6,9 @@ public class MonopolyCardsandDice
 
 	static int randomNumber1;
 	static int randomNumber2;
+	static int diceA;
+	static int diceB;
+	static int diceSum;
 		public static void dice()
 			{
 				Scanner userInput = new Scanner(System.in);
@@ -15,23 +18,32 @@ public class MonopolyCardsandDice
 				System.out.println("Click enter to roll");
 				String roll = userInput.nextLine(); 
 
-				int diceA = randomNumber1; 
-				int diceB = randomNumber2; 
-				int diceSum = diceA + diceB;
-				System.out.println(" You rolled: " + diceA + " and " + diceB + " For a total of " + diceSum + " Please roll again.");
-//test
-			}
-		public static void chanceCards()
-		{
-			ArrayList<String> chanceCard = new ArrayList<String>();
-			chanceCard.add("Yeezy 350 V2 Zebras");
+				 diceA = randomNumber1; 
+				 diceB = randomNumber2; 
+				 diceSum = diceA + diceB;
+				System.out.println(" You rolled: " + diceA + " and " + diceB + " For a total of " + diceSum );
 
+			}
+		public static void chanceCardsDeck()
+		{
+			ArrayList<Cards> chance = new ArrayList<Cards>();
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
 			
 		}
-		public static void comunnityChestCards()
-			{
-				ArrayList<String> comunnityChestCard = new ArrayList<String>();
-				
+		public static void comunnityChestCardsDeck()
+			{//test
+				ArrayList<Cards> comunnityChest = new ArrayList<Cards>();
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
 				
 			}
 	}
