@@ -1,5 +1,4 @@
 
-
 public class MonopolyRunner
 	{
 
@@ -15,6 +14,3 @@ public class MonopolyRunner
 			}
 
 	}
-
-
-
