@@ -5,7 +5,6 @@ public abstract class Tile
 		protected String color;
 		protected int price;
 		
-		public abstract void triggerEvent();
 		
 		public void landOn()
 		{
