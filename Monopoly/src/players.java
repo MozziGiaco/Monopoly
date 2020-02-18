@@ -4,10 +4,13 @@ public class players
 
 		private double money;
 		private String name;
-		public players (double m, String n)
+		static int index;
+		
+		public players (double m, String n, int i)
 		{
 		money = m;
 		name = n;
+		index = i;
 		}
 		public double getMoney()
 		{
@@ -24,6 +27,14 @@ public class players
 		public void setName(String name)
 		{
 		this.name = name;
+		}
+		public int getIndex()
+		{
+		return index;
+		}
+		public void Index(int index)
+		{
+		this.index = index;
 		}
 	
 	}
