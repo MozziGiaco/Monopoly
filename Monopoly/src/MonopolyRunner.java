@@ -13,6 +13,8 @@ System.out.println(" ");
 MonopolyBank.bankMath();
 System.out.println(" ");
 
+MonopolyPlay.locationPics();
+
 }
 }
 

@@ -12,7 +12,7 @@ public class MonopolyBoard
 				boardIndex[0] = "GO : COLLECT $200 SALARY AS YOU PASS";
 				boardIndex[1] = "AURORA'S COTTAGE (PURPLE) PRICE: $60";
 				boardIndex[2] = "COMMUNITY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
-				boardIndex[3] = "SLEEPING BEAUTY CASTLE (PURPLE) PRICE: $60";
+				boardIndex[3] = "SLEEPING BEAUTY'S CASTLE (PURPLE) PRICE: $60";
 				boardIndex[4] = "INCOME TAX : PAY 10% OR $200";
 				boardIndex[5] = "READING RAILROAD : PRICE: $200";
 				boardIndex[6] = "THE BADLANDS (LIGHT BLUE) PRICE: $100";
