@@ -11,9 +11,7 @@ public class MonopolyRunner
 				//hello there
 				MonopolyBank.bankerIntro();
 				System.out.println(" ");
-				MonopolyBank.bankMath();
-				System.out.println(" ");
-
+			
 			}
 
 	}

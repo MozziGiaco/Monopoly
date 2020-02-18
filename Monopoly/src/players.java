@@ -1,14 +1,15 @@
 
 public class players
 	{
-		private double money;
-		private String name;
+		private static double money;
+		private static String name;
+		
 		public players(double m, String n)
 			{
 				money = m;
 				name = n;
 			}
-		public double getMoney()
+		public static double getMoney()
 			{
 				return money;
 			}
