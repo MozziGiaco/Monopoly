@@ -36,7 +36,7 @@ public class MonopolyCardsandDice
 			
 		}
 		public static void comunnityChestCardsDeck()
-			{
+			{//test
 				ArrayList<Cards> comunnityChest = new ArrayList<Cards>();
 				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
 				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
