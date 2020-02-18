@@ -1,18 +1,22 @@
 
 public class players
 	{
-		private static double money;
-		private static String name;
+
+
+		private double money;
+		private String name;
+		static int index;
 		
-		public players(double m, String n)
-			{
-				money = m;
-				name = n;
-			}
-		public static double getMoney()
-			{
-				return money;
-			}
+		public players (double m, String n, int i)
+		{
+		money = m;
+		name = n;
+		index = i;
+		}
+		public double getMoney()
+		{
+		return money;
+		}
 		public void setMoney(double money)
 			{
 				this.money = money;
@@ -25,5 +29,13 @@ public class players
 			{
 				this.name = name;
 			}
-		
+		public int getIndex()
+		{
+		return index;
+		}
+		public void Index(int index)
+		{
+		this.index = index;
+		}
+	
 	}
