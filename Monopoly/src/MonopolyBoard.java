@@ -12,15 +12,15 @@ public class MonopolyBoard
 				boardIndex[3] = "SLEEPING BEAUTY CASTLE (PURPLE) PRICE: $60";
 				boardIndex[4] = "INCOME TAX : PAY 10% OR $200";
 				boardIndex[5] = "READING RAILROAD : PRICE: $200";
-				boardIndex[6] = "SHADOWLAND (LIGHT BLUE) PRICE: $100";
+				boardIndex[6] = "THE BADLANDS (LIGHT BLUE) PRICE: $100";
 				boardIndex[7] = "CHANCE";
 				boardIndex[8] = "HAKUNA MATATA FALLS (LIGHT BLUE) PRICE: $100";
 				boardIndex[9] = "PRIDE ROCK (LIGHT BLUE) PRICE: $120";
 				boardIndex[10] = "IN JAIL (JUST VISITING)";
 				boardIndex[11] = "THE SNUGGLY DUCKLING  (PINK) PRICE: $140";
 				boardIndex[12] = "ELECTRIC COMPANY : PRICE: $150";
-				boardIndex[13] = "RAPUNZEL'S TOWER : PRICE: $140";
-				boardIndex[14] = "CORONA CASTLE : PRICE: $160";
+				boardIndex[13] = "RAPUNZEL'S TOWER (PINK) : PRICE: $140";
+				boardIndex[14] = "CORONA CASTLE (PINK) : PRICE: $160";
 				boardIndex[15] = "PENNSYLVANIA RAILROAD : PRICE: $200";
 				boardIndex[16] = "THE BOG (ORANGE) PRICE: $180";
 				boardIndex[17] = "COMMUNITY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
@@ -48,7 +48,6 @@ public class MonopolyBoard
 				boardIndex[39] = "MOUNT OLYMPUS (DARK BLUE) : PRICE: $400";
 
 				
-				//eegjkslegn
 			}
 
 	}
