@@ -41,24 +41,17 @@ public class MonopolyBank
 							startingAmount.add(new players(1500.00, "Gaston"));
 							startingAmount.add(new players(1500.00, "Maleficent"));
 							
-						
-						
-						
-						
-						
-						
-						
-					//Income Tax Code
-						// when player lands on the stop charge then $200 or 10% 
 					//Selling Property Code
 						// when player lands on square ask weither to but or not
 						//if yes then ask if they want to by a house or a hotel
 							// then give then said house or hotel will taking the money
 					//Paying Rent Code
 					//Jail Payment
-					//Hotel code
-					//Bankruptcy
-						
+					//Bankruptcy	
+				}
+			
+			public static void incomeTax()
+				{
 					
 				}
 			

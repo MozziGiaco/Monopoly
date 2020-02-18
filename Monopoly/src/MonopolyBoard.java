@@ -50,7 +50,5 @@ public class MonopolyBoard
 				boardIndex[38] = "LUXURY TAX : PAY: $75.00";
 				boardIndex[39] = "MOUNT OLYMPUS (DARK BLUE) : PRICE: $400";
 
-				
-
-
+		}
 	}
