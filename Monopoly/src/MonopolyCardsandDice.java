@@ -21,25 +21,29 @@ public class MonopolyCardsandDice
 				 diceA = randomNumber1; 
 				 diceB = randomNumber2; 
 				 diceSum = diceA + diceB;
-				System.out.println(" You rolled: " + diceA + " and " + diceB + " For a total of " + diceSum + " Please roll again.");
-//test
+				System.out.println(" You rolled: " + diceA + " and " + diceB + " For a total of " + diceSum );
+
 			}
 		public static void chanceCardsDeck()
 		{
-			//ArrayList<Cards> Card = new ArrayList<Cards>();
-		//	Card.add("Get out of jail free card");
-			//Card.add("Get out of jail free card");
-			//Card.add("Get out of jail free card");
-			//Card.add("Get out of jail free card");
-			//Card.add("Get out of jail free card");
-			//Card.add("Get out of jail free card");
-
+			ArrayList<Cards> chance = new ArrayList<Cards>();
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
 			
 		}
 		public static void comunnityChestCardsDeck()
 			{
-				//ArrayList<communityChest> comunnityChestCard = new ArrayList<communityChest>();
-				
+				ArrayList<Cards> comunnityChest = new ArrayList<Cards>();
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
 				
 			}
 	}
