@@ -48,7 +48,7 @@ public class MonopolyBoard
 				board[38] = new Tax("LUXURY TAX");
 				board[39] = new Property("MOUNT OLYMPUS", "DARK BLUE", 400);
 
-				// test
+				
 
 			}
 	}
