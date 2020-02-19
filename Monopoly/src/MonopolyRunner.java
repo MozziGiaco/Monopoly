@@ -16,6 +16,7 @@ System.out.println(" ");
 MonopolyPlay.locationPics();
 
 }
+
 }
 
 
