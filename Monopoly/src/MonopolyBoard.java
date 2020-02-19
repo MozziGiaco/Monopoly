@@ -47,6 +47,8 @@ public class MonopolyBoard
 				board[37] = new Property("CITY OF THEBES", "DARK BLUE", 350);
 				board[38] = new Tax("LUXURY TAX");
 				board[39] = new Property("MOUNT OLYMPUS", "DARK BLUE", 400);
+				
+				//test
 
 			}
 
