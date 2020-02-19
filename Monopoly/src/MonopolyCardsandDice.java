@@ -28,6 +28,22 @@ public class MonopolyCardsandDice
 		{
 			ArrayList<Cards> chance = new ArrayList<Cards>();
 			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			chance.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+			
+		}
+		public static void comunnityChestCardsDeck()
+			{//test
+				ArrayList<Cards> comunnityChest = new ArrayList<Cards>();
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
+				comunnityChest.add(new Cards ("Chance Card" , "Get out Of Jail Free" ,true ,0 ,0));
 			chance.add(new Cards ("Chance Card" , "Pay taxes" ,false ,0 ,150));
 			chance.add(new Cards ("Chance Card" , "Go to Jail" ,false ,0 ,0));
 			chance.add(new Cards ("Chance Card" , "You are assessed for street repair" ,false ,0 ,50));
