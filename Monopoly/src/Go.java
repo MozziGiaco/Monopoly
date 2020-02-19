@@ -2,10 +2,17 @@
 public class Go extends Event
 	{
 
-	@Override
-	public void triggerEvent()
-		{
-			
-		}
+		public Go(String name)
+			{
+				super(name);
+				name = "Go";
+
+			}
+
+		@Override
+		public void triggerEvent()
+			{
+
+			}
 
 	}
