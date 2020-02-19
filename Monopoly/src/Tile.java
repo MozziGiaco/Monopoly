@@ -5,6 +5,8 @@ public abstract class Tile
 		protected String color;
 		protected int price;
 		
+		public abstract void triggerEvent();
+		
 		public void landOn()
 		{
 			// something needs to happen when you land on a space, but we're still figuring that out...
