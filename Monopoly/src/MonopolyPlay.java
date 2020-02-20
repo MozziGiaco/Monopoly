@@ -14,12 +14,7 @@ public class MonopolyPlay
 	
 	static JFrame frame = new JFrame();
 	
-	void locationPics()
-		{
-			if ()
-		    	{
-		    		 ImageIcon cottage = new ImageIcon(("cottage.jpg"));
-					    JOptionPane.showMessageDialog(frame, "You have landed on ", null, JOptionPane.QUESTION_MESSAGE, cottage);
+	
 	static void locationPics()
 		{
 			if (players.index + MonopolyCardsandDice.diceSum == 1)
@@ -89,6 +84,35 @@ public class MonopolyPlay
 		    		 ImageIcon pacha = new ImageIcon(("pacha.jpg"));
 					    JOptionPane.showMessageDialog(frame, "You have landed on PACHA'S VILLAGE (RED) : PRICE: $220", null, JOptionPane.QUESTION_MESSAGE, pacha);
 		    	}
+			if (players.index + MonopolyCardsandDice.diceSum == 24)
+		    	{
+		    		 ImageIcon kuzco = new ImageIcon(("kuzco.jpg"));
+					    JOptionPane.showMessageDialog(frame, "You have landed on KUZCO'S PALACE (RED) : PRICE: $240", null, JOptionPane.QUESTION_MESSAGE, kuzco);
+		    	}
+			if (players.index + MonopolyCardsandDice.diceSum == 26)
+		    	{
+		    		 ImageIcon belleVillage = new ImageIcon(("belleVillage.jpg"));
+					    JOptionPane.showMessageDialog(frame, "You have landed on BELLE'S VILLAGE (YELLOW) : PRICE: $260", null, JOptionPane.QUESTION_MESSAGE, belleVillage);
+		    	}
+			if (players.index + MonopolyCardsandDice.diceSum == 27)
+		    	{
+		    		 ImageIcon woods = new ImageIcon(("woods.jpg"));
+					    JOptionPane.showMessageDialog(frame, "You have landed on WOLVES' WOODS : PRICE: $260", null, JOptionPane.QUESTION_MESSAGE, woods);
+		    	}
+			
+			if (players.index + MonopolyCardsandDice.diceSum == 29)
+		    	{
+		    		 ImageIcon beast = new ImageIcon(("beast.jpg"));
+					    JOptionPane.showMessageDialog(frame, "You have landed on THE BEAST'S CASTLE (YELLOW) : PRICE: $280", null, JOptionPane.QUESTION_MESSAGE, beast);
+		    	}
+			
+			
+			if (players.index + MonopolyCardsandDice.diceSum == 10 || players.index + MonopolyCardsandDice.diceSum == 30)
+		    	{
+		    		 ImageIcon dungeon = new ImageIcon(("dungeon.jpg"));
+					    JOptionPane.showMessageDialog(frame, "Welcome to the DUNGEON", null, JOptionPane.QUESTION_MESSAGE, dungeon);
+		    	}
+			
 			
 			
 			
