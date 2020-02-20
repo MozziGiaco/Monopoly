@@ -14,6 +14,7 @@ public class MonopolyPlay
 	
 	static JFrame frame = new JFrame();
 	
+	
 	static void locationPics()
 		{
 			if (players.index + MonopolyCardsandDice.diceSum == 1)
@@ -112,7 +113,6 @@ public class MonopolyPlay
 					    JOptionPane.showMessageDialog(frame, "Welcome to the DUNGEON", null, JOptionPane.QUESTION_MESSAGE, dungeon);
 		    	}
 			
-			//check again
 			
 			
 			
