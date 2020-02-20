@@ -1,54 +1,56 @@
 import java.util.ArrayList;
 
 public class MonopolyBoard
-	{
+{
 
-		public static void makeArray()
-			{
-				String[] boardIndex = new String[5];
+public static void makeArray()
+{
+Tile[] board = new Tile[40];
 
-				boardIndex[0] = "GO : COLLECT $200 SALARY AS YOU PASS";
-				boardIndex[1] = "AURORA'S COTTAGE (PURPLE) PRICE: $60";
-				boardIndex[2] = "COMMUNITY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
-				boardIndex[3] = "SLEEPING BEAUTY'S CASTLE (PURPLE) PRICE: $60";
-				boardIndex[4] = "INCOME TAX : PAY 10% OR $200";
-				boardIndex[5] = "FORESTED PATH : PRICE: $200";
-				boardIndex[6] = "THE BADLANDS (LIGHT BLUE) PRICE: $100";
-				boardIndex[7] = "CHANCE";
-				boardIndex[8] = "HAKUNA MATATA FALLS (LIGHT BLUE) PRICE: $100";
-				boardIndex[9] = "PRIDE ROCK (LIGHT BLUE) PRICE: $120";
-				boardIndex[10] = "IN DUNGEON (JUST VISITING)";
-				boardIndex[11] = "THE SNUGGLY DUCKLING  (PINK) PRICE: $140";
-				boardIndex[12] = "MAGIC MIRROR INC. : PRICE: $150";
-				boardIndex[13] = "RAPUNZEL'S TOWER (PINK) : PRICE: $140";
-				boardIndex[14] = "CORONA CASTLE (PINK) : PRICE: $160";
-				boardIndex[15] = "WINDING ROAD : PRICE: $200";
-				boardIndex[16] = "THE BOG (ORANGE) PRICE: $180";
-				boardIndex[17] = "COMMUNITY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
-				boardIndex[18] = "THE FERRY : PRICE: $180";
-				boardIndex[19] = "TIANA'S PLACE : PRICE: $200";
-				boardIndex[20] = "FREE";
-				boardIndex[21] = "THE JUNGLE (RED) : PRICE: $220";
-				boardIndex[22] = "CHANCE";
-				boardIndex[23] = "PACHA'S VILLAGE (RED) : PRICE: $220";
-				boardIndex[24] = "KUZCO'S PALACE (RED) : PRICE: $240";
-				boardIndex[25] = "THORNED GATE : PRICE: $200";
-				boardIndex[26] = "BELLE'S VILLAGE (YELLOW) : PRICE: $260";
-				boardIndex[27] = "WOLVES' WOODS : PRICE: $260";
-				boardIndex[28] = "THE WELL: PRICE: $150";
-				boardIndex[29] = "THE BEAST'S CASTLE (YELLOW) : PRICE: $280";
-				boardIndex[30] = "GO TO THE DUNGEON";
-				boardIndex[31] = "URSULA'S LAIR (GREEN) : PRICE: $300";
-				boardIndex[32] = "ERIC'S SHIP (GREEN): PRICE: $300";
-				boardIndex[33] = "COMMUNTIY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
-				boardIndex[34] = "TRITON'S KINGDOM (GREEN) : PRICE: $320";
-				boardIndex[35] = "TREASURE HOARD : PRICE: $200";
-				boardIndex[36] = "CHANCE";
-				boardIndex[37] = "CITY OF THEBES (DARK BLUE) : PRICE: $350";
-				boardIndex[38] = "LUXURY TAX : PAY: $75.00";
-				boardIndex[39] = "MOUNT OLYMPUS (DARK BLUE) : PRICE: $400";
+board[0] = new Go("GO");
+board[1] = new Property("AURORA'S COTTAGE", "PURPLE", 60);
+board[2] = new CommunityChest("COMMUNITY CHEST");
+board[3] = new Property("SLEEPING BEAUTY'S CASTLE", "PURPLE", 60);
+board[4] = new Tax("INCOME TAX");
+board[5] = new Property("READING RAILROAD", "", 200);
+board[6] = new Property("SHADOWLAND", "LIGHT BLUE", 100);
+board[7] = new Chance("CHANCE");
+board[8] = new Property("HAKUNA MATATA FALLS", "LIGHT BLUE", 100);
+board[9] = new Property("PRIDE ROCK", "LIGHT BLUE", 120);
+board[10] = new Jail("IN JAIL (JUST VISITING");
+board[11] = new Property("THE SNUGGLY DUCKLING", "PINK", 140);
+board[12] = new Utility("ELECTRIC COMPANY", "WHITE", 150);
+board[13] = new Property("RAPUNZEL'S CASTLE", "", 140);
+board[14] = new Property("CORONA CASTLE", "", 160);
+board[15] = new Railroad("PENNSYLVANIA RAILROAD", "GRAY", 200);
+board[16] = new Property("THE BOG", "ORANGE", 180);
+board[17] = new CommunityChest("COMMUNITY CHEST");
+board[18] = new Property("THE FERRY", "", 180);
+board[19] = new Property("TIANA'S PLACE", "", 200);
+board[20] = new FreeParking("FREE PARKING");
+board[21] = new Property("THE JUNGLE", "RED", 220);
+board[22] = new Chance("CHANCE");
+board[23] = new Property("PACHA'S VILLAGE", "RED", 220);
+board[24] = new Property("KUZCO'S PALACE", "RED", 240);
+board[25] = new Railroad("B & O. RAILROAD", "GRAY", 200);
+board[26] = new Property("BELLE'S VILLAGE", "YELLOW", 260);
+board[27] = new Property("WOLVES' WOODS", "", 260);
+board[28] = new Utility("WATER WORKS", "WHITE", 150);
+board[29] = new Property("THE BEAST'S CASTLE", "YELLOW", 280);
+board[30] = new Jail("GO TO JAIL");
+board[31] = new Property("URSULA'S LAIR", "GREEN", 300);
+board[32] = new Property("ERIC'S SHIP", "GREEN", 300);
+board[33] = new CommunityChest("COMMUNTIY CHEST");
+board[34] = new Property("TRITON'S KINGDOM", "GREEN", 320);
+board[35] = new Utility("SHORT LINE", "WHITE", 200);
+board[36] = new Chance("CHANCE");
+board[37] = new Property("CITY OF THEBES", "DARK BLUE", 350);
+board[38] = new Tax("LUXURY TAX");
+board[39] = new Property("MOUNT OLYMPUS", "DARK BLUE", 400);
 
 
 
-	}
-	}
+
+
+}
+}

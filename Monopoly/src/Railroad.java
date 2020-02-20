@@ -1,12 +1,10 @@
-
 public class Railroad extends Purchaseable
-	{
+{
 
-	@Override
-	public void triggerEvent()
-		{
-			// TODO Auto-generated method stub
-			
-		}
+public Railroad(String n, String c, int p)
+{
+super(n, c, p);
+// TODO Auto-generated constructor stub
+}
 
-	}
+}

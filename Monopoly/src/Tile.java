@@ -2,13 +2,20 @@
 public abstract class Tile
 	{
 		protected String name;
-		protected String color;
-		protected int price;
-		
-		public abstract void triggerEvent();
-		
-		public void landOn()
+
+	public Tile(String n)
 		{
-			// something needs to happen when you land on a space, but we're still figuring that out...
+			name = n;
 		}
+
+public void landOn()
+	{
+		System.out.println("You landed on " + name);
 	}
+
+
+
+
+
+
+}
