@@ -12,6 +12,7 @@ public abstract class Tile
 			{
 				System.out.println("You landed on " + name);
 			}
-		//test
+		
+		
 
 	}
