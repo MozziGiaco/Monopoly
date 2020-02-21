@@ -1,8 +1,8 @@
 
 public class players
 	{
-		private double money;
-		private String name;
+		static double money;
+		static String name;
 		static int index;
 
 		public players (double m, String n, int i)
