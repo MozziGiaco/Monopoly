@@ -65,7 +65,7 @@ public class MonopolyBank
 							// then give then said house or hotel will taking the money
 					//Paying Rent Code
 					//Jail Payment
-					//Bankruptcy	
+					//Bankruptcy	yes
 				
 			
 			public static void incomeTax()
