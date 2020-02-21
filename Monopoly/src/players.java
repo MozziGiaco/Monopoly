@@ -1,14 +1,16 @@
 
-public class players
+public class players 
 	{
 		static double money;
 		static String name;
+		//static String name2;
 		static int index;
 
 		public players (double m, String n, int i)
 		{
 		money = m;
 		name = n;
+		//name2 = n2;
 		index = i;
 		}
 
@@ -27,10 +29,18 @@ public class players
 				return name;
 			}
 
-		public void setName(String name)
+		public String setName()
 			{
 				this.name = name;
 			}
+	//	public String getName2()
+			//{
+			//	return name2;
+			//}
+		//public void setName2(String name2)
+		//	{
+		//		this.name2 = name2;
+		//	}
 
 		public static int getIndex()
 			{
