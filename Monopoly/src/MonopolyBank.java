@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
@@ -9,8 +10,10 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
+
 public class MonopolyBank
 	{
+	static ArrayList <players> playName = new ArrayList <players>();
 	  public static void bankerIntro()
 				{
 					//introduction to the banker
@@ -37,15 +40,24 @@ public class MonopolyBank
 								+ "\n 5 $10s"
 								+ "\n 5 $5s"
 								+ "\n 5 $1s");
+				}
+			
+			public static void choosePlayer()
+				{
+					System.out.println("Player 1 who you want to be! Your choises are:"
+							+ "n/ 1) Scar"
+							+ "n/ 2) Hades"
+							+ "n/ 3) Ysma"
+							+ "n/ 4) Ursula");
+					
+					
+					playName.add(new players(1500.00, "Scar", 0));
+					playName.add(new players(1500.00, "Hades", 0));
+					playName.add(new players(1500.00, "Ysma", 0));
+					playName.add(new players(1500.00, "Ursula", 0));
+					
+				}
 						
-						ArrayList <players> startingAmount = new ArrayList <players>();
-							startingAmount.add(new players(1500.00, "Scar", 0));
-							startingAmount.add(new players(1500.00, "Hades", 0));
-							startingAmount.add(new players(1500.00, "Ysma", 0));
-							startingAmount.add(new players(1500.00, "Ursula", 0));
-							startingAmount.add(new players(1500.00, "Dr. Facilier", 0));
-							startingAmount.add(new players(1500.00, "Gaston", 0));
-							startingAmount.add(new players(1500.00, "Maleficent", 0));
 							
 					//Selling Property Code
 						// when player lands on square ask whether to buy or not
@@ -54,7 +66,7 @@ public class MonopolyBank
 					//Paying Rent Code
 					//Jail Payment
 					//Bankruptcy	
-				}
+				
 			
 			public static void incomeTax()
 				{
