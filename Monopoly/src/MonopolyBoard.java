@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 
 public class MonopolyBoard
-{
+	{
+		static Tile[] board = new Tile[40];
+
 	static boolean movingForward = true;
   public static void makeArray()
 	{
@@ -48,8 +50,7 @@ public class MonopolyBoard
 			board[38] = new Tax("LUXURY TAX");
 			board[39] = new Property("MOUNT OLYMPUS", "DARK BLUE", 400);
 	
-	}
-}
+  }
 
 if (players.index == 20)
 	{
@@ -74,7 +75,7 @@ else
 			}
 	}
 //yaaaay this should work now hopefully
-				
+}				
 			
 		
 	
