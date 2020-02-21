@@ -15,6 +15,7 @@ public void triggerEvent()
     	{
     		players.money += 200.0;
     	}
+	
 }
 
 }
