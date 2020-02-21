@@ -2,8 +2,6 @@ import java.util.ArrayList;
 
 public class MonopolyBoard
 	{
-	 
-		static ArrayList <PropertyBoard> board = new ArrayList <PropertyBoard> ();
 
 		public static void makeArray()
 			{
@@ -12,7 +10,7 @@ public class MonopolyBoard
 				boardIndex[0] = "GO : COLLECT $200 SALARY AS YOU PASS";
 				boardIndex[1] = "AURORA'S COTTAGE (PURPLE) PRICE: $60";
 				boardIndex[2] = "COMMUNITY CHEST : FOLLOW INSTRUCTIONS ON TOP CARD";
-				boardIndex[3] = "SLEEPING BEAUTY CASTLE (PURPLE) PRICE: $60";
+				boardIndex[3] = "SLEEPING BEAUTY'S CASTLE (PURPLE) PRICE: $60";
 				boardIndex[4] = "INCOME TAX : PAY 10% OR $200";
 				boardIndex[5] = "READING RAILROAD : PRICE: $200";
 				boardIndex[6] = "THE BADLANDS (LIGHT BLUE) PRICE: $100";
@@ -49,6 +47,5 @@ public class MonopolyBoard
 				boardIndex[37] = "CITY OF THEBES (DARK BLUE) : PRICE: $350";
 				boardIndex[38] = "LUXURY TAX : PAY: $75.00";
 				boardIndex[39] = "MOUNT OLYMPUS (DARK BLUE) : PRICE: $400";
-
-		}
+			}
 	}
