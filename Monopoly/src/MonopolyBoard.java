@@ -72,7 +72,7 @@ else
 				players.index -= MonopolyCardsandDice.diceSum;
 			}
 	}
-
+//yaaaay
 				
 			
 		
