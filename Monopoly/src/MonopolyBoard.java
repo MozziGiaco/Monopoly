@@ -2,8 +2,9 @@ import java.util.ArrayList;
 
 public class MonopolyBoard
 {
+	static boolean movingForward = true;
 
-public static void makeArray()
+	public static void makeArray()
 {
 Tile[] board = new Tile[40];
 
@@ -49,8 +50,38 @@ board[38] = new Tax("LUXURY TAX");
 board[39] = new Property("MOUNT OLYMPUS", "DARK BLUE", 400);
 
 
+if (players.index == 20)
+	{
+		movingForward = false;
+		
+	}
+
+if (movingForward == true)
+	{
+		for (players.index = 0; players.index < board.length; players.index++)
+			{
+				
+				players.index += MonopolyCardsandDice.diceSum;
+
+			}
+	}
+else
+	{
+		for (players.index = 0; players.index < board.length; players.index--)
+			{
+				players.index -= MonopolyCardsandDice.diceSum;
+			}
+	}
+//yaaaay this should work now hopefully
+				
+			
+		
+	
+	
+	
+	
+		
+	}
 
 
-
-}
 }
