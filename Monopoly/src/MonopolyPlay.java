@@ -117,6 +117,25 @@ public class MonopolyPlay
 					    JOptionPane.showMessageDialog(frame, "You have landed on ERIC'S SHIP", null, JOptionPane.QUESTION_MESSAGE, ship);
 		    	
 		    	}
+			if (players.index + MonopolyCardsandDice.diceSum == 34)
+		    	{
+		    		 ImageIcon tritonKingdom = new ImageIcon(("tritonKingdom.jpg"));
+					    JOptionPane.showMessageDialog(frame, "You have landed on TRITON'S KINGDOM", null, JOptionPane.QUESTION_MESSAGE, tritonKingdom);
+		    	
+		    	}
+			if (players.index + MonopolyCardsandDice.diceSum == 37)
+		    	{
+		    		 ImageIcon thebes = new ImageIcon(("thebes.jpg"));
+					    JOptionPane.showMessageDialog(frame, "You have landed on TRITON'S KINGDOM", null, JOptionPane.QUESTION_MESSAGE, thebes);
+		    	
+		    	}
+			
+			if (players.index + MonopolyCardsandDice.diceSum == 39)
+		    	{
+		    		 ImageIcon olympus = new ImageIcon(("olympus.jpg"));
+					    JOptionPane.showMessageDialog(frame, "You have landed on TRITON'S KINGDOM", null, JOptionPane.QUESTION_MESSAGE, olympus);
+		    	
+		    	}
 			
 			
 			if (players.index + MonopolyCardsandDice.diceSum == 10 || players.index + MonopolyCardsandDice.diceSum == 30)

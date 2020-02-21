@@ -22,15 +22,15 @@ public class MonopolyBank
 				{
 					//introduction to the banker
 					System.out.println("Mother Gothel is the Banker and Auctioneer.");
-					System.out.println("She will manages the funds in this game, without, actually being an active player.");
+					System.out.println("She will manage the funds in this game without actually being an active player.");
 					//end of banker introduction 
 					
 					//bank function intro
 					System.out.println("The bank has many functions.");
-					System.out.println("In this game the Mother Gothel holds title deeds, along with houses and hotels before they are bought by the players.");
+					System.out.println("In this game, Mother Gothel holds title deeds, along with houses and hotels before they are bought by the players.");
 					System.out.println("She will pay your salaries and bonuses. Along with auction off properties and hands out the proper Title Deed cards when bought.");
-					System.out.println("Along with selling houses, hotels, and manages loans for mortagags. Mother Gothal ");
-					System.out.println("collets all taxes, fines, loans, and intrest. She will never go bankrupted (no pun intended).");
+					System.out.println("Along with selling houses, hotels, and managing loans for mortagags. Mother Gothel ");
+					System.out.println("collects all taxes, fines, loans, and interest. She will never go bankrupt (no pun intended).");
 					//end of bank function intro
 				}
 			public static void bankMath()
@@ -48,7 +48,11 @@ public class MonopolyBank
 			
 			public static void choosePlayer()
 				{
+
 					System.out.println("Player 1 who do you want to be? Your choises are:"
+
+					System.out.println("Player 1, who you want to be? Your choises are:"
+
 							+ "n/ 1) Scar"
 							+ "n/ 2) Hades"
 							+ "n/ 3) Ysma"
@@ -199,7 +203,7 @@ public class MonopolyBank
 							// then give then said house or hotel will taking the money
 					//Paying Rent Code
 					//Jail Payment
-					//Bankruptcy	
+					//Bankruptcy	yes
 				
 			
 			public static void incomeTax()
