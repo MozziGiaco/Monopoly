@@ -7,5 +7,6 @@ public class MonopolyBoard
 				// TODO Auto-generated method stub
 
 			}
+		//work now
 
 	}
