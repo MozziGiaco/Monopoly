@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
 public class MonopolyBoard
-{
+	{
+		static Tile[] board = new Tile[40];
+
 	static boolean movingForward = true;
 
 	public static void makeArray()
 {
-Tile[] board = new Tile[40];
-
 board[0] = new Go("GO");
 board[1] = new Property("AURORA'S COTTAGE", "PURPLE", 60);
 board[2] = new CommunityChest("COMMUNITY CHEST");
