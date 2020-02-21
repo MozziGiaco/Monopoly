@@ -1,10 +1,11 @@
-
 public abstract class Event extends Tile
-	{
-		@Override
-		
-		public void triggerEvent()
-		{
-			System.out.println("");
-		}
-	}
+{
+public Event(String name)
+{
+super(name);
+
+}
+
+public abstract void triggerEvent();
+
+}

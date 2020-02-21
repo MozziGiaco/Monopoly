@@ -1,7 +1,7 @@
-public class CommunityChest extends Event
+public class Dungeon extends Event
 {
 
-public CommunityChest(String name)
+public Dungeon(String name)
 {
 super(name);
 // TODO Auto-generated constructor stub
