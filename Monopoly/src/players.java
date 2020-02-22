@@ -29,7 +29,7 @@ public class players
 				return name;
 			}
 
-		public String setName()
+		public void setName()
 			{
 				this.name = name;
 			}

@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
@@ -18,6 +19,8 @@ public class MonopolyBank
 		//static int player2Choice;
 		static ArrayList <players> playName = new ArrayList <players>();
 		static String playerName;
+		static int dungeonChoice;
+		
 	  public static void bankerIntro()
 				{
 					//introduction to the banker
@@ -48,9 +51,11 @@ public class MonopolyBank
 			
 			public static void choosePlayer()
 				{
-
-					System.out.println("Player 1 who do you want to be? Your choises are:"
-
+				
+				playName.add(new players(1500.00, "Scar", 0));
+				playName.add(new players(1500.00, "Hades", 0));
+				playName.add(new players(1500.00, "Ysma", 0));
+				playName.add(new players(1500.00, "Ursula", 0));
 					System.out.println("Player 1, who you want to be? Your choises are:"
 
 							+ "n/ 1) Scar"
@@ -58,10 +63,11 @@ public class MonopolyBank
 							+ "n/ 3) Ysma"
 							+ "n/ or"
 							+ "n/ 4) Ursula");
+					
 					player1Choice = playerChoose.nextInt(); 
 						if(player1Choice == 1)
 							{
-								playerName = playName.get(0).setName("Scar");
+							playerName = playName.get(0).getName();
 								System.out.println("OOOOO Scar, I guess you have to be PREPARED!");
 								System.out.println("You will now be known as Scar.");
 								System.out.println( );
@@ -95,6 +101,7 @@ public class MonopolyBank
 						
 						if(player1Choice == 2)
 							{
+							playerName = playName.get(1).getName();
 								System.out.println("How do you kill a god? The one question Hades is still asking.");
 								System.out.println("You will now be known as Hades.");
 								System.out.println( );
@@ -127,9 +134,11 @@ public class MonopolyBank
 						
 						if(player1Choice == 3)
 								{
-									System.out.println("Pull the Lever Cronk, WRONG LEVER!! The master mind of postions Ysma.");
+								playerName = playName.get(2).getName();
+									System.out.println("Pull the Leva Cronk, WRONG LEVAAA!! The master mind of postions Ysma.");
 									System.out.println("You will now be known as Ysma.");
 									System.out.println( );
+									
 									//System.out.println("Now player 2 who do you want to be? Your choises are:"
 											//+ "n/ 1) Scar"
 											//+ "n/ 2) Hades"
@@ -159,6 +168,7 @@ public class MonopolyBank
 						
 							if(player1Choice == 4)
 									{
+								playerName = playName.get(3).getName();
 										System.out.println("THOSE POOR UNFORTINATE SOULS that have to watch Ursula practic her BODY LANGUAGE...");
 										System.out.println("You will now be known as Ursula.");
 										System.out.println( );
@@ -188,23 +198,46 @@ public class MonopolyBank
 									//				}
 										
 									}
-					
-					playName.add(new players(1500.00, "Scar", 0));
-					playName.add(new players(1500.00, "Hades", 0));
-					playName.add(new players(1500.00, "Ysma", 0));
-					playName.add(new players(1500.00, "Ursula", 0));
+							
+							
+				
 					
 				}
+		public static void visitingDungeon()
+			{
+				if (players.index == 10)
+					{
+						System.out.println("Haha sucker you have to go pay a visit to the DUNGEON!"
+								+ "n/ and 1 of your turns were skip");
+						System.out.println(playerName + " is now on tile 5.");
 						
-							
-					//Selling Property Code
-						// when player lands on square ask whether to buy or not
-						//if yes then ask if they want to by a house or a hotel
-							// then give then said house or hotel will taking the money
-					//Paying Rent Code
-					//Jail Payment
-					//Bankruptcy	yes
-				
+					}
+			}
+		public static void inDungeon()
+			{
+				if(players.index == 30)
+					{
+						System.out.println("You are now in the dungeon, " + playerName);
+						System.out.println("You either have to pay $200 or lose three turns.");
+						System.out.println("What is your choice..." + playerName
+								+ "n/ 1) Pay $200"
+								+ "n/ 2) Lose Three Turns");
+						
+						dungeonChoice = playerChoose.nextInt();
+						
+						if(dungeonChoice == 1)
+							{
+								System.out.println(playerName + ", you are now out $200. The bank now is $200 richer.");
+								//playName.setMoney(playName.getMoney() - 200);
+//yeet yeet 
+
+							}
+						else if(dungeonChoice == 2)
+							{
+								System.out.println("You have lost three turns " + playerName + " You are now back where you started on tile 1");
+							}
+					}
+			}
 			
 			public static void incomeTax()
 				{
