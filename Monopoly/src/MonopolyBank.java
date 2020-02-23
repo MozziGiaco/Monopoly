@@ -56,7 +56,7 @@ public class MonopolyBank
 				playName.add(new players(1500.00, "Hades", 0));
 				playName.add(new players(1500.00, "Ysma", 0));
 				playName.add(new players(1500.00, "Ursula", 0));
-					System.out.println("Player 1, who you want to be? Your choises are:"
+					System.out.println("Choice your chracter *insert mortal combat theme song*:"
 
 							+ "\n 1) Scar"
 							+ "\n 2) Hades"
@@ -68,7 +68,7 @@ public class MonopolyBank
 						if(player1Choice == 1)
 							{
 							playerName = playName.get(0).getName();
-								System.out.println("OOOOO Scar, I guess you have to be PREPARED!");
+								System.out.println("OOOOO Scar, I guess you have to BE PRRRREEEEEEPAAAAARREEED!");
 								System.out.println("You will now be known as Scar.");
 								System.out.println( );
 								//System.out.println("Now player 2 who do you want to be? Your choises are:"
