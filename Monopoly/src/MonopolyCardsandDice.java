@@ -242,5 +242,5 @@ public class MonopolyCardsandDice
 				comunnityChest.add(new Cards("Community Chest Card", "Advance to Go", false, 0, 0));
 
 			}
-
+// 
 	}
