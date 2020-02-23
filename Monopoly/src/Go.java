@@ -1,21 +1,10 @@
 public class Go extends Event
-{
+	{
 
-public Go(String name)
-{
-super(name);
-name = "Go";
+		public Go(String name)
+			{
+				super(name);
 
-}
+			}
 
-@Override
-public void triggerEvent()
-{
-	if (players.index + MonopolyCardsandDice.diceSum == 0)
-    	{
-    		players.money += 200.0;
-    	}
-	
-}
-
-}
+	}

@@ -11,12 +11,7 @@ super(n, c, p);
 // TODO Auto-generated constructor stub
 }
 
-@Override
-public void triggerPurchaseableEvent()
-	{
-		// TODO Auto-generated method stub
-		
-	}
+
 public void landOnRailroad()
 {
 	choice2 = intInput.nextInt();

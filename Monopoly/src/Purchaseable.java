@@ -11,7 +11,6 @@ public abstract class Purchaseable extends Tile
 
 			}
 
-		public abstract void triggerPurchaseableEvent();
 		
 		
 
