@@ -136,13 +136,18 @@ public static void CheckMoneyLevel()
 				playing = false;
 			}
 					
-		if(players.money == 0.0)
+		else if(players.money == 0.0)
 			{
 				System.out.println("Ooops looks like you are out of money meaning you are..."
 								+ "\n "
 								+ "\n BANKROUPT!!"
 								+ "\n ");
 				playing = false;
+			}
+		else
+			{
+				System.out.println(MonopolyBank.playName + " bank account is currently: " + players.money);
+				rollDice();
 			}
 	}
 	
@@ -154,10 +159,7 @@ public static void CheckMoneyLevel()
 						players.money += 200.0;
 					}
 				
-				if(players.money != 0.0 || players.money != 5000.0)
-					{
-						playing = true;
-					}
+				CheckMoneyLevel();
 
 			}
 
