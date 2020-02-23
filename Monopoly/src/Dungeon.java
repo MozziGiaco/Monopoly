@@ -9,11 +9,7 @@ public class Dungeon extends Event
 
 			}
 
-		@Override
-		public void triggerEvent()
-			{
-				MonopolyBank.visitingDungeon();
-			}
+		
 //go to MonopolyBank class
 		
 
