@@ -58,11 +58,11 @@ public class MonopolyBank
 				playName.add(new players(1500.00, "Ursula", 0));
 					System.out.println("Player 1, who you want to be? Your choises are:"
 
-							+ "n/ 1) Scar"
-							+ "n/ 2) Hades"
-							+ "n/ 3) Ysma"
-							+ "n/ or"
-							+ "n/ 4) Ursula");
+							+ "\n 1) Scar"
+							+ "\n 2) Hades"
+							+ "\n 3) Ysma"
+							+ "\n or"
+							+ "\n 4) Ursula");
 					
 					player1Choice = playerChoose.nextInt(); 
 						if(player1Choice == 1)
@@ -71,11 +71,11 @@ public class MonopolyBank
 								System.out.println("OOOOO Scar, I guess you have to be PREPARED!");
 								System.out.println("You will now be known as Scar.");
 								System.out.println( );
-								System.out.println("Now player 2 who do you want to be? Your choises are:"
-										+ "n/ 1) Hades"
-										+ "n/ 2) Ysma"
-										+ "or "
-										+ "n/ 3) Ursula");
+								//System.out.println("Now player 2 who do you want to be? Your choises are:"
+								//		+ "\n 1) Hades"
+								//		+ "\n 2) Ysma"
+								//		+ "or "
+								//		+ "\n 3) Ursula");
 								
 								//player2Choice = playerChoose.nextInt(); 
 									//if(player2Choice == 1)
@@ -208,8 +208,8 @@ public class MonopolyBank
 				if (players.index == 10)
 					{
 						System.out.println("Haha sucker you have to go pay a visit to the DUNGEON!"
-								+ "n/ and 1 of your turns were skip");
-						System.out.println(playerName + " is now on tile 5.");
+								+ "n/ and 1 of your turns was skipped");
+						System.out.println(playerName + " is now on tile 31.");
 						
 					}
 			}
@@ -228,8 +228,8 @@ public class MonopolyBank
 						if(dungeonChoice == 1)
 							{
 								System.out.println(playerName + ", you are now out $200. The bank now is $200 richer.");
-								//playName.setMoney(playName.getMoney() - 200);
-//yeet yeet 
+								playName.get(0).setMoney(playName.get(0).getMoney() - 200.0);
+
 
 							}
 						else if(dungeonChoice == 2)
