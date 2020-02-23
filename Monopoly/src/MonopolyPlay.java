@@ -190,6 +190,8 @@ public class MonopolyPlay
 						ImageIcon dungeon = new ImageIcon(("dungeon.jpg"));
 						JOptionPane.showMessageDialog(frame, "Welcome to the DUNGEON", null,
 								JOptionPane.QUESTION_MESSAGE, dungeon);
+						
+						MonopolyBank.inDungeon();
 					}
 				if (players.index == 31)
 					{
