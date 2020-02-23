@@ -11,8 +11,11 @@ public abstract class Tile
 			}
 
 		public void landOn()
-			{
-				System.out.println("You landed on the " + name + " tile.");
-			}
+		{
+			System.out.println("You landed on " + name);
+		}
+			
+
+			
 
 	}

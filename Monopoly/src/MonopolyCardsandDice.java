@@ -6,14 +6,21 @@ public class MonopolyCardsandDice
 
 	static int randomNumber1;
 	static int randomNumber2;
+	static int randomNumber3;
+	static int randomNumber4;
 	static int diceA;
 	static int diceB;
 	static int diceSum;
+	static int diceSum2;
+	static int diceC;
+	static int diceD;
 		public static void dice()
 			{
 				Scanner userInput = new Scanner(System.in);
 				 randomNumber1 = (int) (Math.random() *6 + 1);
 				 randomNumber2 = (int) (Math.random() *6 + 1);
+				 randomNumber3 = (int) (Math.random() *6 + 1);
+				 randomNumber4 = (int) (Math.random() *6 + 1);
 			
 				System.out.println("Click enter to roll");
 				String roll = userInput.nextLine(); 
@@ -21,8 +28,12 @@ public class MonopolyCardsandDice
 				 diceA = randomNumber1; 
 				 diceB = randomNumber2; 
 				 diceSum = diceA + diceB;
+				 diceC = randomNumber3;
+				 diceD = randomNumber4;
+				 diceSum2 = diceC + diceD;
 				System.out.println(" You rolled: " + diceA + " and " + diceB + " For a total of " + diceSum );
-
+				
+				players.index = diceSum;
 			}
 		public static void chanceCardsDeck()
 		{
