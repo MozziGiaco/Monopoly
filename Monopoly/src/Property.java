@@ -30,7 +30,7 @@ public class Property extends Purchaseable
 
 						players.index += MonopolyCardsandDice.diceSum;
 					}
-				MonopolyCardsandDice.CheckMoneyLevel();
+				
 				MonopolyCardsandDice.rollDice();
 				
 			}

@@ -121,7 +121,7 @@ public class MonopolyCardsandDice
 			
 			else if(players.index >= 39)
 				{
-					playing = false;
+					
 					MonopolyCardsandDice.GoTriggerEvent();
 					
 				}
@@ -153,10 +153,11 @@ public static void CheckMoneyLevel()
 	
 		public static void GoTriggerEvent()
 			{
-				if (players.index + MonopolyCardsandDice.diceSum == 0)
+				if (players.index + MonopolyCardsandDice.diceSum >= 39)
 					{
 						System.out.println("You have passed GO! So you get $200 added to your bank account." );
 						players.money += 200.0;
+						MonopolyBank.playName.get(0).setIndex(0);
 					}
 				
 				CheckMoneyLevel();
