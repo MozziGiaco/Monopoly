@@ -11,22 +11,27 @@ public class Railroad extends Purchaseable
 // TODO Auto-generated constructor stub
 			}
 
-		public void landOnRailroad()
+		public static void landOnRailroad()
 			{
 				choice2 = intInput.nextInt();
-				System.out.println("Would you like to buy " + name + "?");
-
+				System.out.println("Would you like to buy " + players.index + "?");
 				System.out.println("(1) Yes");
 				System.out.println("(2) No");
 
 				if (choice2 == 1)
 					{
-						System.out.println("You have chosen to purchase " + name + ".");
+						System.out.println("You have chosen to purchase " + players.index + ".");
+						MonopolyBank.playName.get(0).setMoney(
+								MonopolyBank.playName.get(0).getMoney() - MonopolyRunner.board[players.index].price);
+
+					}
+				if (choice2 == 1)
+					{
+						System.out.println("You have chosen to purchase " + players.index + ".");
 						MonopolyBank.playName.get(0).setMoney(
 								MonopolyBank.playName.get(0).getMoney() - MonopolyRunner.board[players.index].price);
 
 					}
 
 			}
-
 	}

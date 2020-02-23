@@ -125,6 +125,59 @@ public class MonopolyCardsandDice
 
 							}
 					}
+
+				// Pass go isn't working
+
+				while (playing)
+					{
+						if (players.index >= 0 && players.index <= 38)
+							{
+								playing = true;
+								// 1
+								System.out.println("Click enter to roll");
+								roll = userInput.nextLine();
+								System.out.println(
+										"You rolled: " + diceA + " and " + diceB + " for a total of " + diceSum);
+								MonopolyBank.playName.get(0).setIndex(diceSum);
+								MonopolyPlay.locationPics();
+								// 2
+								System.out.println("Click enter to roll again");
+								roll2 = userInput.nextLine();
+								System.out.println(
+										"You rolled: " + diceC + " and " + diceD + " for a total of " + diceSum2);
+								MonopolyBank.playName.get(0).setIndex(diceSum + diceSum2);
+								MonopolyPlay.locationPics();
+								// 3
+								System.out.println("Click enter to roll again");
+								roll3 = userInput.nextLine();
+								System.out.println(
+										"You rolled: " + diceE + " and " + diceF + " for a total of " + diceSum3);
+								MonopolyBank.playName.get(0).setIndex(diceSum + diceSum2 + diceSum3);
+								MonopolyPlay.locationPics();
+								// 4
+								System.out.println("Click enter to roll again");
+								roll4 = userInput.nextLine();
+								System.out.println(
+										"You rolled: " + diceG + " and " + diceH + " for a total of " + diceSum4);
+								MonopolyBank.playName.get(0).setIndex(diceSum + diceSum2 + diceSum3 + diceSum4);
+								MonopolyPlay.locationPics();
+								// 5
+								System.out.println("Click enter to roll again");
+								roll5 = userInput.nextLine();
+								System.out.println(
+										"You rolled: " + diceI + " and " + diceJ + " for a total of " + diceSum5);
+								MonopolyBank.playName.get(0)
+										.setIndex(diceSum + diceSum2 + diceSum3 + diceSum4 + diceSum5);
+								MonopolyPlay.locationPics();
+							}
+
+						else if (players.index >= 39)
+							{
+
+								MonopolyCardsandDice.GoTriggerEvent();
+
+							}
+					}
 			}
 
 		public static void CheckMoneyLevel()
@@ -135,26 +188,45 @@ public class MonopolyCardsandDice
 						playing = false;
 					}
 
-				if (players.money == 0.0)
+				else if (players.money == 0.0)
 					{
-						System.out.println("Ooops looks like you are out of money meaning you are..." + "\n "
-								+ "\n BANKROUPT!!" + "\n ");
-						playing = false;
+						if (players.money == 5000.0)
+							{
+								System.out
+										.println("YAY! " + MonopolyBank.playName + ". You just won Disney Monopoly!!");
+								playing = false;
+							}
+
+						if (players.money == 0.0)
+							{
+								System.out.println("Ooops looks like you are out of money meaning you are..." + "\n "
+										+ "\n BANKROUPT!!" + "\n ");
+								playing = false;
+							}
+					}
+
+				else
+					{
+						System.out.println(MonopolyBank.playName + " bank account is currently: " + players.money);
+						rollDice();
 					}
 			}
 
 		public static void GoTriggerEvent()
 			{
-				if (players.index + MonopolyCardsandDice.diceSum == 0)
+				if (players.index + MonopolyCardsandDice.diceSum >= 39)
 					{
 						System.out.println("You have passed GO! So you get $200 added to your bank account.");
 						players.money += 200.0;
+						MonopolyBank.playName.get(0).setIndex(0);
 					}
 
 				if (players.money != 0.0 || players.money != 5000.0)
 					{
 						playing = true;
 					}
+
+				CheckMoneyLevel();
 
 			}
 
