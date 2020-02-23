@@ -80,6 +80,7 @@ public class MonopolyCardsandDice
 				diceJ = randomNumber10;
 				diceSum5 = diceI + diceJ;
 				
+				//Pass go isn't working
 				
 	while(playing)
 		{
