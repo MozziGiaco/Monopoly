@@ -14,9 +14,8 @@ public class MonopolyRunner
 				MonopolyBank.bankMath();
 				MonopolyBank.choosePlayer();
 				MonopolyCardsandDice.rollDice();
-				
 				MonopolyPlay.locationPics();
-	
+
 			}
 
 		public static void gameBoard()
@@ -78,7 +77,8 @@ public class MonopolyRunner
 								players.index += MonopolyCardsandDice.diceSum;
 
 							}
-					} else
+					}
+				else
 					{
 						for (players.index = 0; players.index < MonopolyRunner.board.length; players.index--)
 							{

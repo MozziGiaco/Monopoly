@@ -258,7 +258,7 @@ public class MonopolyBank {
 				System.out.println("You chose not to buy the Property, roll again!");
 
 			}
-			players.index = 1 + MonopolyCardsandDice.diceSum;
+			//players.index = 1 + MonopolyCardsandDice.diceSum;
 			MonopolyCardsandDice.rollDice();
 
 		}
@@ -278,7 +278,7 @@ public class MonopolyBank {
 				System.out.println("You chose not to buy the Property, roll again!");
 
 			}
-			players.index = 3 + MonopolyCardsandDice.diceSum;
+			//players.index = 3 + MonopolyCardsandDice.diceSum;
 			MonopolyCardsandDice.rollDice();
 
 		}
@@ -299,7 +299,7 @@ public class MonopolyBank {
 				System.out.println("You chose not to buy the Property, roll again!");
 
 			}
-			players.index = 6 + MonopolyCardsandDice.diceSum;
+			//players.index = 6 + MonopolyCardsandDice.diceSum;
 			MonopolyCardsandDice.rollDice();
 
 		}
@@ -321,7 +321,7 @@ public class MonopolyBank {
 				
 
 			}
-			players.index = 8 + MonopolyCardsandDice.diceSum;
+			//players.index = 8 + MonopolyCardsandDice.diceSum;
 			MonopolyCardsandDice.rollDice();
 
 		}
@@ -341,7 +341,7 @@ public class MonopolyBank {
 				System.out.println("You chose not to buy the Property, roll again!");
 
 			}
-			players.index = players.index = 9 + MonopolyCardsandDice.diceSum;
+			//players.index = players.index = 9 + MonopolyCardsandDice.diceSum;
 			MonopolyCardsandDice.rollDice();
 
 		}
@@ -362,7 +362,7 @@ public class MonopolyBank {
 				MonopolyCardsandDice.rollDice();
 
 			}
-			players.index = 11 + MonopolyCardsandDice.diceSum;
+			//players.index = 11 + MonopolyCardsandDice.diceSum;
 			MonopolyCardsandDice.rollDice();
 
 		}
