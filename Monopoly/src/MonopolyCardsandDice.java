@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class MonopolyCardsandDice
 	{
+		static int rollTotal;
 		static boolean playing = true;
 		
 		
@@ -119,10 +120,11 @@ public class MonopolyCardsandDice
 					MonopolyPlay.locationPics();
 				}
 			
-			else if(players.index >= 39)
+			if(players.index >= 39)
 				{
 					
 					MonopolyCardsandDice.GoTriggerEvent();
+					
 					
 				}
 		}
@@ -140,27 +142,25 @@ public static void CheckMoneyLevel()
 			{
 				System.out.println("Ooops looks like you are out of money meaning you are..."
 								+ "\n "
-								+ "\n BANKROUPT!!"
+								+ "\n BANKRUPT!!"
 								+ "\n ");
 				playing = false;
 			}
 		else
 			{
-				System.out.println(MonopolyBank.playName + " bank account is currently: " + players.money);
+				System.out.println(MonopolyBank.playerName + "'s bank account is currently at: " + players.money);
 				rollDice();
 			}
 	}
 	
 		public static void GoTriggerEvent()
-			{
-				if (players.index + MonopolyCardsandDice.diceSum >= 39)
-					{
-						System.out.println("You have passed GO! So you get $200 added to your bank account." );
-						players.money += 200.0;
-						MonopolyBank.playName.get(0).setIndex(0);
-					}
-				
+			{	
+				players.index = players.index - 39;
+				System.out.println("You have passed GO! So you get $200 added to your bank account." );
+				players.money += 200.0;
+						
 				CheckMoneyLevel();
+				
 
 			}
 
