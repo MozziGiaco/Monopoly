@@ -2,11 +2,14 @@
 public abstract class Tile
 	{
 		protected String name;
+		protected String color;
 		protected int price;
+		
 
-		public Tile(String n, int p)
+		public Tile(String n,String c, int p)
 			{
 				name = n;
+				color = c;
 				price = p;
 			}
 
