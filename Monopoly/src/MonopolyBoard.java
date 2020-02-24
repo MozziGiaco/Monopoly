@@ -10,7 +10,7 @@ public class MonopolyBoard
 
 		public static void makeArray()
 			{
-				Tile[] board = new Tile[40];
+				board = new Tile[40];
 
 				board[0] = new Go("GO");
 				board[1] = new Property("AURORA'S COTTAGE", "PURPLE", 60);
