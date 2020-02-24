@@ -278,7 +278,8 @@ public class MonopolyBank
 								System.out.println("You chose not to buy the Property, roll again!");
 
 							}
-						// players.index = 1 + MonopolyCardsandDice.diceSum;
+						MonopolyBank.playName.get(0)
+								.setIndex(MonopolyBank.playName.get(0).getIndex() + MonopolyCardsandDice.diceSum);
 						MonopolyCardsandDice.rollDice();
 
 					}
@@ -942,8 +943,6 @@ public class MonopolyBank
 					}
 
 			}
-
-		
 
 		public static void testParking()
 			{
