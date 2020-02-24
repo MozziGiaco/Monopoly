@@ -1,17 +1,14 @@
+import java.util.Scanner;
+
 public class Utility extends Purchaseable
-{
-
-public Utility(String n, String c, int p)
-{
-super(n, c, p);
-// TODO Auto-generated constructor stub
-}
-
-@Override
-public void triggerPurchaseableEvent()
 	{
-		// TODO Auto-generated method stub
-		
-	}
+		static Scanner intInput = new Scanner(System.in);
+		static int choice3;
 
-}
+		public Utility(String n, String c, int p)
+			{
+				super(n, c, p);
+// TODO Auto-generated constructor stub
+			}
+
+	}

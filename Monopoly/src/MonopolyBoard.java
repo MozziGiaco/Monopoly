@@ -1,16 +1,17 @@
 
 
+
 import java.util.ArrayList;
+=======
+import java.util.Scanner;
 
-public class MonopolyBoard
-	{
-		static Tile[] board = new Tile[40];
+//MonopolyBoard class is now our property stuff, railroad stuff, and utility stuff
 
-		static boolean movingForward = true;
+public class MonopolyBoard {
+	
 
-		public static void makeArray()
-			{
-				board = new Tile[40];
+	
+/*
 
 				board[0] = new Go("GO");
 				board[1] = new Property("AURORA'S COTTAGE", "PURPLE", 60);
@@ -74,8 +75,11 @@ public class MonopolyBoard
 							{
 								players.index -= MonopolyCardsandDice.diceSum;
 							}
-					}
+					}/*
 //yaaaay this should work now hopefully
 			
+
 	}
-	}
+
+}
+}
