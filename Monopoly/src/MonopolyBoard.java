@@ -1,17 +1,10 @@
-//import java.util.ArrayList;
-//import java.util.Scanner;
+import java.util.Scanner;
 
-//public class MonopolyBoard
-//	{
-		
+//MonopolyBoard class is now our property stuff, railroad stuff, and utility stuff
 
-//		public static void makeArray()
-//			{
+public class MonopolyBoard {
+	
 
-				
-				
-//yaaaay this should work now hopefully
-//			}
-		
+	
 
-//	}
+}

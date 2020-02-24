@@ -11,8 +11,10 @@ public class MonopolyRunner
 			{
 
 				GameMenu.gameIntro();
+				MonopolyBank.bankMath();
 				MonopolyBank.choosePlayer();
 				MonopolyCardsandDice.rollDice();
+				
 				MonopolyPlay.locationPics();
 	
 			}
