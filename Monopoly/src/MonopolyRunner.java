@@ -3,7 +3,6 @@ public class MonopolyRunner
 	{
 
 		static Tile[] board = new Tile[40];
-		static boolean movingForward = true;
 		static boolean stillPlaying = true;
 		static boolean afterGoPlaying = true;
 
@@ -16,6 +15,8 @@ public class MonopolyRunner
 				changeBoard.changeGameBoard();
 				MonopolyCardsandDice.rollDice();
 				MonopolyPlay.locationPics();
+				
+			
 
 			}
 
@@ -64,28 +65,7 @@ public class MonopolyRunner
 				board[38] = new Tax("LUXURY TAX");
 				board[39] = new Property("MOUNT OLYMPUS", "DARK BLUE", 400);
 
-				if (players.index == 20)
-					{
-						movingForward = false;
-
-					}
-
-				if (movingForward == true)
-					{
-						for (players.index = 0; players.index < MonopolyRunner.board.length; players.index++)
-							{
-
-								players.index += MonopolyCardsandDice.diceSum;
-
-							}
-					}
-				else
-					{
-						for (players.index = 0; players.index < MonopolyRunner.board.length; players.index--)
-							{
-								players.index -= MonopolyCardsandDice.diceSum;
-							}
-					}
+				
 
 			}
 

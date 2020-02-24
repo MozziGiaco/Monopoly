@@ -85,11 +85,15 @@ public class MonopolyCardsandDice
 					{
 
 						// 1
+						//diceSum = 20;
 						System.out.println("Click enter to roll");
 						roll = userInput.nextLine();
+						System.out.println("Your index is 20");
 						System.out.println("You rolled: " + diceA + " and " + diceB + " for a total of " + diceSum);
 						MonopolyBank.playName.get(0).setIndex(MonopolyBank.playName.get(0).getIndex() + diceSum);
 						MonopolyPlay.locationPics();
+						GoTriggerEvent();
+					
 						// 2
 						System.out.println("Click enter to roll again");
 						roll2 = userInput.nextLine();
@@ -111,7 +115,7 @@ public class MonopolyCardsandDice
 						// 5
 						System.out.println("Click enter to roll again");
 						roll5 = userInput.nextLine();
-						System.out.println("You rolled: " + diceI + " and " + diceJ + " for a total of " + diceSum5);
+						System.out.println("You rolled: " + diceI + " and " + diceJ + " for a total of " + 0);
 						MonopolyBank.playName.get(0).setIndex(diceSum + diceSum2 + diceSum3 + diceSum4 + diceSum5);
 						MonopolyPlay.locationPics();
 
@@ -148,12 +152,43 @@ public class MonopolyCardsandDice
 
 		public static void GoTriggerEvent()
 			{
-				players.index = players.index - 39;
+				//players.index = players.index - 39;
 				System.out.println("You have passed GO! So you get $200 added to your bank account.");
 				players.money += 200.0;
 
 				CheckMoneyLevel();
 
+			}
+		public static void landOnFreeParking()
+			{
+				System.out.println("I'm here");
+
+				MonopolyBank.playName.get(0)
+						.setIndex(MonopolyBank.playName.get(0).getIndex() + MonopolyCardsandDice.diceSum * -1);
+
+				// if (players.index == 20)
+				// {
+
+				// movingForward = false;
+
+				// }
+
+				/*
+				 * if (movingForward == true) { for (players.index = 0; players.index <
+				 * MonopolyRunner.board.length; players.index++) {
+				 * 
+				 * players.index += MonopolyCardsandDice.diceSum;
+				 * 
+				 * } }
+				 */
+
+				// if(movingForward == false)
+				// {
+				// for (players.index = 20; players.index < MonopolyRunner.board.length;
+				// players.index--)
+				// {
+				// }
+				// }
 			}
 
 		public static void chanceCardsDeck()
@@ -183,4 +218,3 @@ public class MonopolyCardsandDice
 			}
 //
 	}
-
