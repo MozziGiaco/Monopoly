@@ -7,12 +7,13 @@ public class MonopolyRunner
 		static boolean stillPlaying = true;
 		static boolean afterGoPlaying = true;
 
-		public static void main(String[] args)
+		public static void main(String[] args) throws Exception
 			{
 
 				GameMenu.gameIntro();
 				MonopolyBank.bankMath();
 				MonopolyBank.choosePlayer();
+				changeBoard.changeGameBoard();
 				MonopolyCardsandDice.rollDice();
 				
 				MonopolyPlay.locationPics();
