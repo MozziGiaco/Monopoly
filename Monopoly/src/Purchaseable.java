@@ -7,7 +7,7 @@ public abstract class Purchaseable extends Tile
 
 		public Purchaseable(String n, String c, int p)
 			{
-				super(n, p);
+				super(n,c, p);
 
 			}
 

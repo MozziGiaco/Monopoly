@@ -40,16 +40,25 @@ public class GameMenu
 		
 		public static void gameInstructions()
 			{
-				System.out.println("Instructions: ");
+
+				// Emy master comment 
+				//MonopolyCardsandDice.dices();
+		System.out.println("Instructions: ");
 				System.out.println();
 				System.out.println("Each player begins with $1500."
 						+ "\n One player will be selected at random to go first. the turns will proceed in numeric order.");
 				System.out.println("Roll the dice on your turn to move across the board. "
 						+ "\n The space you land on will tell you if you can buy a property, pay rent, go to jail, or draw a card.");
 				System.out.println("The player with the most money at the end of the game wins!");
+
+
+			
+
 				System.out.println("Mother Gothal will serve as the bank and collect income tax, distribute money,"
 						+ "\n and collect money when you choose to buy a proterty, railroad, or utility.");
+
 				System.out.println("");
+
 			}
 
 	}
